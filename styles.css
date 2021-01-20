@@ -1,6 +1,8 @@
 body {
   font-size: 18px;
   font-family: 'Bai Jamjuree', sans-serif;
+  position: relative;
+  margin: 0;
   /* text-align: center; */
 }
 
@@ -14,11 +16,14 @@ h4 {
   font-size: 1.5rem;
   color: hsl(210, 10%, 33%);
   text-align: center;
+  font-weight: 600;
 }
 
-h3 {
+h5 {
   font-weight: 600;
-  text-align: center;
+  font-size: 1.1rem;
+  /* text-align: center; */
+  color: hsl(210, 10%, 33%);
 }
 
 p {
@@ -27,8 +32,13 @@ p {
   /* text-align: center; */
 }
 
+.bgdesk {
+  position: absolute;
+  top: 0;
+}
 
 .buttons {
+  margin: 20px auto;
   text-align: center;
   /* border-radius: 50%; */
 }
@@ -36,6 +46,7 @@ p {
   background: hsl(171, 66%, 44%);
   border-radius: 20px;
   padding: 12px 35px;
+  margin: 10px;
   color: white;
   border: 0;
   box-shadow: 1px 1px 0.5px 1px hsl(171, 66%, 40%);
@@ -44,14 +55,20 @@ p {
   background: hsl(233, 100%, 69%);
   border-radius: 20px;
   padding: 12px 35px;
+  margin: 10px;
   color: white;
   border: 0;
   box-shadow: 1px 1px 0.5px 1px hsl(233, 100%, 65%);
 }
 /* top */
+.head {
+  margin: 0 auto 100px;
+
+}
 .headlogo {
   display: block;
-  margin: 10px auto;
+  padding-top: 100px;
+  margin: 0 auto 10px;
 }
 .heading {
   position: relative;
@@ -64,7 +81,7 @@ p {
 .mid1 {
   text-align: center;
   width: 45%;
-  margin: 50px auto;
+  margin: 100px auto;
   /* position: relative; */
 }
 .mid2{
@@ -74,14 +91,15 @@ p {
 .comp {
   position: relative;
   display: inline-block;
-  width: 550px;
+  width: 700px;
   right: 50px;
   /* margin-bottom: 50px; */
   margin-right: 70px;
 }
 .midtext{
   position: relative;
-  bottom:  50px;
+  width: 30%;
+  bottom: 140px;
   display: inline-block;
   text-align: left;
 }
