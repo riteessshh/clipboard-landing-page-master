@@ -37,6 +37,9 @@ p {
   position: absolute;
   top: 0;
 }
+.bgdesk1 {
+  display: none;
+}
 
 .buttons {
   margin: 20px auto;
@@ -110,9 +113,20 @@ p {
 }
 
 
-@media (max-width:550px) {
+@media (max-width:375px) {
   body{
     overflow-x: hidden;
+    position: relative;
+    text-align: center;
+  }
+
+  .bgdesk{
+    display: none;
+  }
+  .bgdesk1{
+    display: inline-block;
+    position: absolute;
+    top: 0;
   }
 
   .button1 {
