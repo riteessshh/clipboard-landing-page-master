@@ -107,3 +107,13 @@ p {
 .mid3 {
   clear: both;
 }
+
+
+@media (max-width:375px) {
+  .button1 {
+    display: block;
+  }
+  .button2 {
+    display: block;
+  }
+}
