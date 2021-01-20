@@ -113,7 +113,7 @@ p {
 }
 
 
-@media (max-width:375px) {
+@media (max-width:550px) {
   body{
     overflow-x: hidden;
     position: relative;
@@ -148,7 +148,6 @@ p {
     display: block;
     margin: 10px auto;
     width: 300px;
-
   }
   .midtext{
     line-height: 1;
