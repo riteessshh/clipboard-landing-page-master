@@ -22,7 +22,11 @@ p {
 
 
 /* top */
+.headlogo {
+  position: absolute;
+}
 .heading {
+  position: relative;
   width: 45%;
   margin: 0 auto;
 }
