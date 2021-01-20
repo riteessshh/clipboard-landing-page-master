@@ -13,26 +13,56 @@ h3 {
 h4 {
   font-size: 1.5rem;
   color: hsl(210, 10%, 33%);
+  text-align: center;
+}
+
+h3 {
+  font-weight: 600;
+  text-align: center;
 }
 
 p {
   font-size: 15px;
   color: hsl(201, 11%, 66%);
+  /* text-align: center; */
 }
 
 
+.buttons {
+  text-align: center;
+  /* border-radius: 50%; */
+}
+.button1 {
+  background: hsl(171, 66%, 44%);
+  border-radius: 20px;
+  padding: 12px 35px;
+  color: white;
+  border: 0;
+  box-shadow: 1px 1px 0.5px 1px hsl(171, 66%, 40%);
+}
+.button2 {
+  background: hsl(233, 100%, 69%);
+  border-radius: 20px;
+  padding: 12px 35px;
+  color: white;
+  border: 0;
+  box-shadow: 1px 1px 0.5px 1px hsl(233, 100%, 65%);
+}
 /* top */
 .headlogo {
-  position: absolute;
+  display: block;
+  margin: 10px auto;
 }
 .heading {
   position: relative;
   width: 45%;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* middle */
 .mid1 {
+  text-align: center;
   width: 45%;
   margin: 50px auto;
   /* position: relative; */
@@ -45,12 +75,15 @@ p {
   position: relative;
   display: inline-block;
   width: 550px;
-  right: 40px;
-  margin-bottom: 50px;
+  right: 50px;
+  /* margin-bottom: 50px; */
   margin-right: 70px;
 }
 .midtext{
+  position: relative;
+  bottom:  50px;
   display: inline-block;
+  text-align: left;
 }
 .mid3 {
   clear: both;
