@@ -91,10 +91,9 @@ p {
 }
 .comp {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   width: 700px;
   right: 50px;
-  /* margin-bottom: 50px; */
   margin-right: 70px;
 }
 .midtext{
@@ -105,26 +104,39 @@ p {
   text-align: left;
 }
 .mid3 {
-  clear: both;
+
 }
 
 
-@media (max-width:375px) {
+@media (max-width:550px) {
 
   .button1 {
     display: block;
+    margin: 10px auto;
   }
   .button2 {
     display: block;
+    margin: 10px auto;
   }
 
   .mid2{
     text-align: center;
   }
   .comp {
+    position: static;
     display: block;
     margin: 10px auto;
-    width: 200px;
+    width: 400px;
+  }
+  .midtext{
+    line-height: 1;
+    position: static;
+    display: block;
+    width: 55%;
+    margin: 10px auto;
+    text-align: center;
+    bottom: auto;
+
   }
 
 
