@@ -1,0 +1,46 @@
+body {
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(201, 11%, 66%);
+}
+
+
+/* top */
+.heading {
+  width: 45%;
+  margin: 0 auto;
+}
+
+/* middle */
+.mid1 {
+  width: 45%;
+  margin: 50px auto;
+  /* position: relative; */
+}
+.mid2{
+  /* position: relative; */
+  margin: 100px auto;
+}
+.comp {
+  /* position: absolute; */
+  display: inline-block;
+  float: left;
+  width: 400px;
+  /* left: 10px; */
+}
