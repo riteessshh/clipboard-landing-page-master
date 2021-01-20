@@ -110,10 +110,23 @@ p {
 
 
 @media (max-width:375px) {
+
   .button1 {
     display: block;
   }
   .button2 {
     display: block;
   }
+
+  .mid2{
+    text-align: center;
+  }
+  .comp {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+  }
+
+
+
 }
