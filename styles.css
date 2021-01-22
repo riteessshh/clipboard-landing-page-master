@@ -261,7 +261,6 @@ p {
 
 @media (max-width:550px) {
   body{
-    overflow-x: hidden;
     position: relative;
     text-align: center;
   }
